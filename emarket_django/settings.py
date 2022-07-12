@@ -85,8 +85,12 @@ WSGI_APPLICATION = 'emarket_django.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'de9bhs59h6s7br',
+        'USER': 'zifxnrmkihzjek',
+        'PASSWORD': '1ae1fa1981e36d25605ca31c9ec98236aeef66a8c63220798e340570b760b95a',
+        'HOST': 'ec2-3-219-52-220.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
