@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'djoser',
     'psycopg2',
+    'product',
 ]
 
 CORS_ALLOWED_ORIGINS = [
